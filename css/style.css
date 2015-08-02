@@ -1,0 +1,38 @@
+body{
+	background:#c61239;
+	color: white;
+}
+
+
+#boton{
+background: none;
+border: none;
+color: white;
+position: relative;
+top: 40%;
+width: 50%;
+margin: 40vh 25% 0;
+cursor: pointer;
+}
+
+#boton:hover{
+background: none;
+border: none;
+
+}
+
+
+#boton:visited{
+background: none;
+border: none;
+
+}
+
+
+.ocultar{
+	display: none;
+}
+
+img{
+	max-width: 100%;
+}
