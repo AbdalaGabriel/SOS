@@ -1,7 +1,8 @@
+
 function obtenerJSON()
 {
 
-
+	alert("hola");
 	//var longitud	= "-58.51548270000";
 	//var latitud		= "-34.53920390000";
 
@@ -31,14 +32,7 @@ function obtenerJSON()
 
 				console.log("traje datos");
 
-				 navigator.notification.prompt(
-			            respuestaServer.nombre,  // message
-			            onPrompt,                  // callback to invoke
-			            'Registration',            // title
-			            ['Ok','Exit'],             // buttonLabels
-			            'Jane Doe'                 // defaultText
-			        );
-
+				alert("hola");
 				//alert(respuestaServer.nombre);
 
 			})
