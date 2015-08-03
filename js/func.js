@@ -30,7 +30,16 @@ function obtenerJSON()
 			.done(function(respuestaServer) {
 
 				console.log("traje datos");
-				alert(respuestaServer.nombre);
+
+				 navigator.notification.prompt(
+			            respuestaServer.nombre,  // message
+			            onPrompt,                  // callback to invoke
+			            'Registration',            // title
+			            ['Ok','Exit'],             // buttonLabels
+			            'Jane Doe'                 // defaultText
+			        );
+
+				//alert(respuestaServer.nombre);
 
 			})
 
