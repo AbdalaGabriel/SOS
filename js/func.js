@@ -2,7 +2,7 @@
 function obtenerJSON()
 {
 
-	alert("hola");
+
 	//var longitud	= "-58.51548270000";
 	//var latitud		= "-34.53920390000";
 
@@ -32,8 +32,8 @@ function obtenerJSON()
 
 				console.log("traje datos");
 
-				alert("hola");
-				//alert(respuestaServer.nombre);
+			
+				alert(respuestaServer.nombre);
 
 			})
 
