@@ -1,4 +1,3 @@
-
 function obtenerJSON()
 {
 
@@ -20,7 +19,6 @@ function obtenerJSON()
 		var latitud = position.coords.longitude;
 		console.log(longitud);console.log(latitud);
 		/*$.ajax({  type: 'GET',  url: 'query.php?longitud='+"-34.58893560000"+'&latitud='+"-58.49863690000", dataType: 'json' , success: callback   });
-
 		function callback(){
 			alert("si");
 		}*/
@@ -30,16 +28,15 @@ function obtenerJSON()
 			$.getJSON( archivoValidacion, { longitud:longitud , latitud:latitud}) 
 			.done(function(respuestaServer) {
 
-				console.log("traje datos");
 
-			
+				
 				alert(respuestaServer.nombre);
 
 			})
 
 			.fail(function(){
 
-				console.log("algo fallo");
+				alert("algo fallo");
 
 			});
 
