@@ -17,7 +17,7 @@ function obtenerJSON()
 
 		var longitud = position.coords.latitude;
 		var latitud = position.coords.longitude;
-		console.log(longitud);console.log(latitud);
+		alert(longitud + " y su latitud es:" + latitud);
 		/*$.ajax({  type: 'GET',  url: 'query.php?longitud='+"-34.58893560000"+'&latitud='+"-58.49863690000", dataType: 'json' , success: callback   });
 		function callback(){
 			alert("si");
